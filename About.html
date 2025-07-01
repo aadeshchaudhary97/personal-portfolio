@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Aadesh Chaudhary</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+    <style>
+  /* Reset and Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background and Text */
+body {
+  background: url("https://img.freepik.com/free-photo/beautiful-shot-snowy-mountain-sunset_181624-37878.jpg?semt=ais_items_boosted&w=740") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* Sticky Header (Same as Home) */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header img {
+  border-radius: 80px;
+}
+
+header a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header a:hover {
+  color: #f9c60e;
+}
+
+/* Main About Container */
+.container {
+  max-width: 900px;
+  margin: 100px auto 50px auto;
+  padding: 40px 30px;
+  background-color: rgba(0, 0, 0, 0.6); /* Overlay for readability */
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f9c60e;
+}
+
+.education h3 {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #e0e0e0;
+}
+
+.short {
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-left: 5px solid #f9c60e;
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+    <header>
+  <img src="logo.png" alt="Logo" height="60">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+</header>
+
+  <div class="container">
+    <h1>About Me</h1>
+    <p>Hello! I’m <strong>Aadesh Chaudhary</strong>, a B.Tech Computer Science student currently in my 2nd year at <strong>DIT University</strong>. I’m passionate about web development and constantly exploring new technologies, especially in front-end development with HTML, CSS, and JavaScript.</p>
+
+    <div class="education">
+      <h2>🎓 Education</h2>
+      <h3>10th Grade – New St. Stephen's Public School</h3>
+      <p>Scored <strong>85%</strong> in CBSE Board Exams</p>
+
+      <h3>12th Grade – St. Andrews School</h3>
+      <p>Scored <strong>80%</strong> in CBSE Board Exams</p>
+
+      <h3>B.Tech – DIT University</h3>
+      <p>Currently in <strong>2nd year</strong><br />
+      Scored <strong>8.2 CGPA</strong> in 1st year</p>
+    </div>
+
+    <div class="short">
+      <h2>💡 In Short</h2>
+      <p>I’m a focused and curious learner who enjoys building clean, responsive websites. My goal is to grow as a full-stack developer and contribute to meaningful, real-world projects.</p>
+    </div>
+  </div>
+</body>
+</html>

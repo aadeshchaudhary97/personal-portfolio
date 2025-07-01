@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url("https://img.freepik.com/free-photo/beautiful-shot-snowy-mountain-sunset_181624-37878.jpg?semt=ais_items_boosted&w=740") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header img{
+    border-radius: 80px;
+}
+header a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header a:hover {
+    color: #f9c60e;
+}
+
+main {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* dark overlay for better contrast */
+    min-height: 100vh;
+}
+
+main h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+main h1 span {
+    color: #f9c60e;
+}
+
+main p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0 20px;
+}
+
+main .DP1{
+    border-radius: 80px;
+}
+main a img {
+    margin: 20px 10px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 4px;
+}
+
+div {
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #f9c60e;
+}
+
